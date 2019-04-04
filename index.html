@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="CSS/estilos.css">
+        <title>Mini S_Venta</title>
+    </head>
+    <body>
+        <header></header>
+        <main> 
+            <form action="" class="formu">
+                <h1 class="formu_titulos">Ventas Unión</h1>
+                <input type="text" class="form_input" placeholder="Nombre" id="nombreP">
+                <input type="text" class="form_input" placeholder="Precio" id="precioP">
+                <input type="text" class="form_input" placeholder="Cantidad" id="cantidadP">
+            </form>
+            <aside class="tabla">
+                <section id="btn_env">
+                        <input type="submit" class="form_subm" onclick="enviar()">
+                </section>
+                <table>
+                    <Thead>
+                        <th>Nª</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>SubTotal</th>
+                        <th>Operacion</th>
+                    </Thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <section id="fin">
+                    <label for="" class="rstd">Total Sub: </label>
+                    <input type="text" class="final" id="total_sub">
+                    <br>
+                    <label for="" class="rstd">IGV: </label>
+                    <input type="text" class="final" id="igv">
+                    <br>
+                    <label for="" class="rstd">Total: </label>
+                    <input type="text" class="final"  id="total">
+                </section>
+            </aside>
+        </main>
+        <footer></footer>
+        <script src="JS/script.js"></script>
+    </body>
+
+</html>
